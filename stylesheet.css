@@ -27,7 +27,15 @@
     .clearfix {
         margin: auto;
     }  
-    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .icone{
+        max-width: 60px;
+        max-height: 60px;
+        margin-left: 10px;
+    }
     @media screen and (max-width: 600px) {
         
         #pres {
@@ -52,7 +60,12 @@
         p  { 
             font-size: 12px !important;
             color: white!important;
-        }       
+        } 
+        .icone {
+            max-width: 40px;
+            max-height: 40px;
+            
+        }      
     }
         .foot{
         background-color:rgba(19, 34, 27, 0.842) !important;
