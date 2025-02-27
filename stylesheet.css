@@ -36,6 +36,11 @@
         max-height: 60px;
         margin-left: 10px;
     }
+    .icone2{
+        max-width: 40px;
+        max-height: 40px;
+        margin-left: 10px;
+    }
     @media screen and (max-width: 768px) {
         
         #pres {
